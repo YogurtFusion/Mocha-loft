@@ -22,7 +22,7 @@ const Hero = () => {
       <div className=" relative z-10  p-7 flex flex-col justify-center items-center gap-2 ">
         {/* Delivery & Dine-in Available */}
         <div className=" bg-[#F5DEB280]/50 flex justify-center items-center gap-2.5 w-fit mx-auto py-1 px-4 rounded-full  ">
-          <span className="w-[6px] h-[6px] aspect-square rounded-full bg-[#D99726] "></span>
+          <span className="w-[6px] h-[6px] aspect-square rounded-full bg-gold "></span>
           <span className="font-poppins text-sm text-amber-50">
             Delivery & Dine-in Available
           </span>
@@ -58,6 +58,7 @@ const Hero = () => {
               </svg>
             }
             padding={`px-6 py-2`}
+          link={"/"}
           />
           <HeroBtn
             text={"Order From Whatsapp"}
@@ -79,6 +80,7 @@ const Hero = () => {
                 />
               </svg>
             }
+            link={"/"}
           />
         </div>
       </div>
