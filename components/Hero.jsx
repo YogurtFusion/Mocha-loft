@@ -1,10 +1,10 @@
 import React from "react";
-import HeroBtn from "./HeroBtn";
+import HeroBtn from "./UI/HeroBtn";
 import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative h-[600px] flex items-center justify-center overflow-hidden  ">
+    <section className="relative h-[600px] flex items-center justify-center overflow-hidden mb-12 ">
       {/* hero image */}
       <img
         src="./hero-image.png"

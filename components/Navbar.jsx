@@ -31,7 +31,7 @@ const Navbar = () => {
             Mocha Loft
           </span>
         </Link>
-{/* Desktop nav */}
+        {/* Desktop nav */}
         <nav className="hidden md:block">
           <ul className="flex gap-8">
             {navLinks.map((item) => (
@@ -42,7 +42,7 @@ const Navbar = () => {
                   className="relative group py-1 block"
                 >
                   <span className="group-hover:text-amber-400  transition-colors duration-300">
-                  {item.name}
+                    {item.name}
                   </span>
                   <span className="absolute h-[0.5px] left-0 bottom-0 w-0 bg-amber-400 transition-all duration-300 ease-out group-hover:w-full"></span>
                 </Link>
@@ -55,11 +55,10 @@ const Navbar = () => {
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
-          
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
-{/* mobile nav */}
+      {/* mobile nav */}
       {isOpen && (
         <div className=" border-t border-white/10 bg-[#1A1614] px-6 py-4   ">
           <ul className="flex flex-col justify-center text-amber-50 gap-4">
@@ -71,7 +70,6 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   target={item.isExternal ? "_blank" : "_self"}
                 >
-                  
                   {item.name}
                 </Link>
               </li>
