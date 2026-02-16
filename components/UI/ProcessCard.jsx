@@ -1,7 +1,6 @@
 import React from "react";
-import { Cloud } from "lucide-react";
 
-const ProcessCard = (title, desc, num) => {
+const ProcessCard = ({ title, desc, num, svg }) => {
   return (
     <div className="relative bg-gold/15 h-fit rounded-2xl border-[0.5px] border-gold  hover:border-gold-hover transition-colors  ">
       {/* Wrap */}
@@ -11,9 +10,7 @@ const ProcessCard = (title, desc, num) => {
           {num}
         </div>
 
-        <div className="bg-gold/30  text-gold p-4  rounded-full  ">
-          <Cloud className=" w-7 h-7 stroke-1  " />
-        </div>
+        <div className="bg-gold/30  text-gold p-4  rounded-full  ">{svg} </div>
 
         <h2 className="text-primary text-2xl leading-relaxed font-playfair font-semibold ">
           {title}

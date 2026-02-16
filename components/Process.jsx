@@ -34,9 +34,14 @@ const Process = () => {
           How It Works
         </h1>
         {/* cards */}
-        <div className="p-6">{
+        <div className="p-6 flex flex-col justify-center  gap-10 ">{
           cardBody.map((item)=>(
-            <ProcessCard key={item.num}
+            <ProcessCard 
+            key={item.num}
+            title={item.title} 
+            desc={item.desc}
+            svg={item.svg}
+            num={item.num}
             />
           ))
           }</div>
