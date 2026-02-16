@@ -9,20 +9,19 @@ const cardBody = [
     num: 1,
     title: "Browse Menu",
     desc: "Explore our curated selection of multi-cuisine favorites",
-    svg: <BrowseIcon/>,
-    
+    svg: <BrowseIcon />,
   },
   {
     num: 2,
     title: "Click Order",
     desc: "Select your dishes and add them to your order",
-    svg: <MessageCloud/>
+    svg: <MessageCloud />,
   },
   {
     num: 3,
     title: "Confirm on WhatsApp",
     desc: "Finalize your order through a quick WhatsApp cha",
-    svg: <OrderIcon/>
+    svg: <OrderIcon />,
   },
 ];
 const Process = () => {
@@ -34,17 +33,17 @@ const Process = () => {
           How It Works
         </h1>
         {/* cards */}
-        <div className="p-6 flex flex-col justify-center  gap-10 ">{
-          cardBody.map((item)=>(
-            <ProcessCard 
-            key={item.num}
-            title={item.title} 
-            desc={item.desc}
-            svg={item.svg}
-            num={item.num}
+        <div className="p-6 flex flex-col justify-center  gap-10 ">
+          {cardBody.map((item) => (
+            <ProcessCard
+              key={item.num}
+              title={item.title}
+              desc={item.desc}
+              svg={item.svg}
+              num={item.num}
             />
-          ))
-          }</div>
+          ))}
+        </div>
       </div>
     </section>
   );

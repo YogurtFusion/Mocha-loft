@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-  <div>
-    <Hero/>
-    <Process/>
-  </div>
+    <div>
+      <Hero />
+      <Process />
+    </div>
   );
 }

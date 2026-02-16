@@ -4,14 +4,14 @@
 @theme {
   --font-poppins: "Poppins", sans-serif;
   --font-playfair: "Playfair Display", serif;
-  --color-primary:#F9F7F2;
-  --color-secondary:#EBE5DA;
-  --color-gold:#D99726;
-  --color-gold-hover:#F59E0B;
-  --color-overlay-black:#0C0A09;
-  --color-overlay-brown:#4A3F35;
+  --color-primary: #f9f7f2;
+  --color-secondary: #ebe5da;
+  --color-gold: #d99726;
+  --color-gold-hover: #f59e0b;
+  --color-overlay-black: #0c0a09;
+  --color-overlay-brown: #4a3f35;
 }
 
-body{
-  background-color: #0F0C0A;
+body {
+  background-color: #0f0c0a;
 }
