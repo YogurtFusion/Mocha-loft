@@ -2,7 +2,7 @@ import React from "react";
 
 const ProcessCard = ({ title, desc, num, svg }) => {
   return (
-    <div className="relative bg-gold/15 h-fit rounded-2xl border-[0.5px] border-gold  hover:border-gold-hover transition-colors  ">
+    <div className="relative bg-gold/15 h-fit rounded-2xl border-[0.5px] border-gold  hover:border-gold-hover transition-colors h-full ">
       {/* Wrap */}
       <div className=" flex justify-center items-center flex-col gap-5 p-10 pt-12  text-center">
         {/* num */}

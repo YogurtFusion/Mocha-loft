@@ -33,7 +33,7 @@ const Process = () => {
           How It Works
         </h1>
         {/* cards */}
-        <div className="p-6 flex flex-col justify-center  gap-10 ">
+        <div className="p-6 grid grid-cols-1 md:grid-cols-3   gap-10 max-w-6xl mx-auto w-full  ">
           {cardBody.map((item) => (
             <ProcessCard
               key={item.num}
