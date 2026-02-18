@@ -10,7 +10,7 @@ const ProcessCard = ({ title, desc, num, svg }) => {
           {num}
         </div>
 
-        <div className="bg-gold/30  text-gold p-4  rounded-full  ">{svg} </div>
+        <div className="bg-gold/30  text-gold p-4  rounded-full stroke-gold ">{svg} </div>
 
         <h2 className="text-primary text-2xl leading-relaxed font-playfair font-semibold ">
           {title}
