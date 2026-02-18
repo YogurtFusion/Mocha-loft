@@ -1,5 +1,6 @@
 import React from "react";
 import MenuLinks from "./UI/MenuLinks";
+import MenuCard from "./UI/MenuCard";
 
 const Menu = () => {
   return (
@@ -11,6 +12,7 @@ const Menu = () => {
         The Menu
       </h2>
       <MenuLinks/>
+<MenuCard/>
       </div>
     </section>
   );

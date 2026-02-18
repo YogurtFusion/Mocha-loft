@@ -15,8 +15,8 @@ const MenuLinks = () => {
       {Links.map((item) => (
         <button
           key={item.title}
-          className={`  rounded-full active:text-gold active:border-gold-hover  transition-all duration-300 active:bg-[#1F1A17] active:scale-95 flex items-center justify-center px-6 py-2.5 
-            ${active === item.title? "border bg-[#1F1A17] text-gold border-gold-hover scale-105 ":"bg-[#1F1A17]/60 text-secondary border-primary hover:bg-[#1F1A17] hover:text-gold hover:border-gold-hover "}`}  
+          className={`  rounded-full active:text-gold active:border-gold-hover  transition-all duration-300 active:bg-card active:scale-95 flex items-center justify-center px-6 py-2.5 
+            ${active === item.title? "border bg-card text-gold border-gold-hover scale-105 ":"bg-card/60 text-secondary border-[0.5px] border-primary  hover:bg-card hover:text-gold hover:border-gold-hover "}`}  
           onClick={()=>setactive(item.title)}
         >
           <span className="text-base"> {item.title} </span>
