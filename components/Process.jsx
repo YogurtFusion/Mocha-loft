@@ -26,10 +26,10 @@ const cardBody = [
 ];
 const Process = () => {
   return (
-    <section className="">
+    <section className="mb-12">
       {/* wrap */}
-      <div className="">
-        <h1 className="text-center text-primary text-3xl/relaxed leading-16  font-playfair ">
+      <div className="p-12">
+        <h1 className="text-center text-primary text-3xl/relaxed leading-16  font-playfair font-semibold ">
           How It Works
         </h1>
         {/* cards */}
