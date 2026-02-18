@@ -3,13 +3,16 @@ import OrderIcon from "./OrderIcon";
 
 const MenuBtn = () => {
   return (
-    <a href="" className="text-secondary bg-card/80  border border-primary rounded-full py-2 px-4 ">
-      <button className="flex gap-2 stroke-primary text-primary">
-        <OrderIcon/>
-        <span>order now</span>
-        </button>
+    <a
+      href="https://wa.me/919471090662?text=👋%20Hi!"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="button-primary-custom py-2 px-4  flex items-center gap-2 w-fit "
+    >
+      <OrderIcon />
+      <span className="font-medium">Order</span>
     </a>
   );
 };
 
-export default MenuBtn
+export default MenuBtn;

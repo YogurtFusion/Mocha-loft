@@ -10,7 +10,23 @@
   --color-gold-hover: #f59e0b;
   --color-overlay-black: #0c0a09;
   --color-overlay-brown: #4a3f35;
-  --color-card:#1F1A17;
+  --color-card: #1f1a17;
+}
+
+@layer components {
+  .button-primary-custom {
+    /* base shape and color */
+ @apply  rounded-full border border-primary/80 bg-card/80 text-secondary text-lg backdrop-blur-sm cursor-pointer
+  /* Icon  */
+  stroke-primary
+  /* Animation*/
+  transition-all 
+  md:duration-300
+
+/* hover */
+ 
+ active:scale-95 active:text-gold active:border-gold-hover active:bg-card  active:stroke-gold  hover:bg-card  hover:text-gold hover:stroke-gold  hover:border-gold-hover ;
+  }
 }
 
 body {
