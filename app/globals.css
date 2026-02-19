@@ -24,7 +24,6 @@
   md:duration-300
 
 /* hover */
- 
  active:scale-95 active:text-gold active:border-gold-hover active:bg-card  active:stroke-gold  hover:bg-card  hover:text-gold hover:stroke-gold  hover:border-gold-hover ;
   }
 }

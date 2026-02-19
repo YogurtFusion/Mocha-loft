@@ -7,12 +7,11 @@ const Menu = () => {
     <section className="mb-12">
       {/* wrap */}
       <div className="flex flex-col  justify-center items-center p-6 gap-6">
-
-      <h2 className="text-primary text-3xl leading-normal tracking-[-0.6px] font-semibold font-playfair text-center ">
-        The Menu
-      </h2>
-      <MenuLinks/>
-<MenuCard/>
+        <h2 className="text-primary text-3xl leading-normal tracking-[-0.6px] font-semibold font-playfair text-center ">
+          The Menu
+        </h2>
+        <MenuLinks />
+        <MenuCard />
       </div>
     </section>
   );
