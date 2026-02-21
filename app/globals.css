@@ -16,15 +16,27 @@
 @layer components {
   .button-primary-custom {
     /* base shape and color */
- @apply  rounded-full border border-primary/80 bg-card/80 text-secondary text-lg backdrop-blur-sm cursor-pointer
-  /* Icon  */
-  stroke-primary
-  /* Animation*/
-  transition-all 
-  md:duration-300
+    @apply rounded-full border border-primary/80 bg-card/80 text-secondary text-lg backdrop-blur-sm cursor-pointer;
+    /* Icon  */
+    @apply stroke-primary;
+    /* Animation*/
+    @apply transition-all;
+    @apply md:duration-300;
 
-/* hover */
- active:scale-95 active:text-gold active:border-gold-hover active:bg-card  active:stroke-gold  hover:bg-card  hover:text-gold hover:stroke-gold  hover:border-gold-hover ;
+    /* hover */
+    @apply active:scale-95 active:text-gold active:border-gold-hover active:bg-card  active:stroke-gold  hover:bg-card  hover:text-gold hover:stroke-gold  hover:border-gold-hover;
+  }
+  .footer-btn-custom {
+    /* background  */
+    @apply bg-gold rounded-lg;
+    @apply text-secondary text-lg backdrop-blur-sm cursor-pointer;
+    /* Icon  */
+    @apply stroke-primary;
+    /* Animation*/
+    @apply transition-all md:duration-300;
+
+    /* hover */
+    @apply active:scale-95 active:text-primary     active:stroke-primary  active:bg-gold-hover hover:bg-gold-hover  hover:text-primary hover:stroke-primary;
   }
 }
 
