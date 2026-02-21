@@ -15,13 +15,13 @@ const cardBody = [
     num: 2,
     title: "Click Order",
     desc: "Select your dishes and add them to your order",
-    svg: <MessageCloud />,
-  },
+    svg: <OrderIcon />,
+  }, 
   {
     num: 3,
     title: "Confirm on WhatsApp",
     desc: "Finalize your order through a quick WhatsApp cha",
-    svg: <OrderIcon />,
+    svg:<MessageCloud />,
   },
 ];
 const Process = () => {
@@ -29,7 +29,7 @@ const Process = () => {
     <section className="mb-12">
       {/* wrap */}
       <div className="p-12">
-        <h1 className="text-center text-primary text-3xl/tight  font-playfair font-semibold border-b border-primary mx-auto w-fit  ">
+        <h1 className="text-center text-primary text-3xl/tight  font-playfair font-semibold border-b border-primary mx-auto w-fit mb-10 ">
           How It Works
         </h1>
         {/* cards */}

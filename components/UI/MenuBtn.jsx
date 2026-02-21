@@ -1,5 +1,5 @@
 import React from "react";
-import OrderIcon from "./OrderIcon";
+import MessageCloud from "./MessageCloud";
 
 const MenuBtn = () => {
   return (
@@ -9,7 +9,7 @@ const MenuBtn = () => {
       rel="noopener noreferrer"
       className="button-primary-custom py-2 px-4  flex items-center gap-2 w-fit "
     >
-      <OrderIcon />
+      <MessageCloud />
       <span className="font-medium">Order</span>
     </a>
   );
