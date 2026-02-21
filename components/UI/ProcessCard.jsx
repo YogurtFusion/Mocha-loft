@@ -2,9 +2,9 @@ import React from "react";
 
 const ProcessCard = ({ title, desc, num, svg }) => {
   return (
-    <div className="relative bg-gold/15 h-fit rounded-2xl border-[0.5px] border-gold  hover:border-gold-hover transition-colors h-full ">
+    <div className="relative bg-gold/15  rounded-2xl border-[0.5px] border-gold  hover:border-gold-hover transition-colors w-full mx-auto max-w-sm h-full ">
       {/* Wrap */}
-      <div className=" flex justify-center items-center flex-col gap-5 p-10 pt-12  text-center">
+      <div className=" flex justify-center items-center flex-col gap-5 p-10 pt-12 text-center">
         {/* num */}
         <div className="absolute  -top-5 left-1/2 -translate-x-1/2 flex justify-center items-center  bg-overlay-black rounded-full border border-gold text-gold w-10 h-10 text-center shadow-md text-base ">
           {num}
