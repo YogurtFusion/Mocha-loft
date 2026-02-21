@@ -29,7 +29,7 @@ const Process = () => {
     <section className="mb-12">
       {/* wrap */}
       <div className="p-12">
-        <h1 className="text-center text-primary text-3xl/relaxed leading-16  font-playfair font-semibold ">
+        <h1 className="text-center text-primary text-3xl/tight  font-playfair font-semibold border-b border-primary mx-auto w-fit  ">
           How It Works
         </h1>
         {/* cards */}
