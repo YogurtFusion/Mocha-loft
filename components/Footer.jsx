@@ -6,8 +6,8 @@ import { Clock, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="bg-[#1B120E] border-y border-[#352C27] ">
+    <footer className="bg-[#1B120E] border-t border-[#352C27] ">
+      
         <div className="max-w-7xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Footer head */}
           <div className="flex flex-col gap-6 items-start">
@@ -37,7 +37,7 @@ const Footer = () => {
 
           {/* Quick Info */}
           <div className="flex flex-col  gap-6">
-            <h2 className="text-2xl  text-secondary  font-playfair font-semibold">
+            <h2 className="text-2xl  text-primary font-playfair font-semibold">
               Quick Info
             </h2>
             <div className="flex items-start flex-col  gap-3 font-poppins ">
@@ -87,11 +87,11 @@ const Footer = () => {
               <span className="text-gold font-semibold ">Pro tip: </span>Save
               our number to get exclusive offers and updates!
             </div>
-          </div>
+          </div> 
         </div>
-      </div>
+     
 
-      <div className=" flex flex-col items-center justify-center text-secondary/80 text-xs leading-relaxed  gap-4 p-6 font-poppins ">
+      <div className=" flex flex-col items-center justify-center text-secondary/80 text-xs leading-relaxed  gap-4 p-6 font-poppins border-t border-white/5 ">
         <p>© {new Date().getFullYear()} Mocha Loft. All rights reserved.</p>
         <p>
           Crafted with 

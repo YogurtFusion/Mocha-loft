@@ -8,8 +8,8 @@ import Hero from "./Hero";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "Menu", href: "/#Menu" },
+    { name: "Home", href: "#hero" },
+    { name: "Menu", href: "#menu" },
     { name: "Contact", href: "https://wa.me/9386183875", isExternal: true },
   ];
   return (
@@ -36,7 +36,7 @@ const Navbar = () => {
           <ul className="flex gap-8">
             {navLinks.map((item) => (
               <li key={item.name} className=" hover:text-amber-400 ">
-                <Link
+                <a
                   href={`${item.href}`}
                   target={item.isExternal ? "_blank" : "_self"}
                   className="relative group py-1 block"
@@ -45,7 +45,7 @@ const Navbar = () => {
                     {item.name}
                   </span>
                   <span className="absolute h-[0.5px] left-0 bottom-0 w-0 bg-amber-400 transition-all duration-300 ease-out group-hover:w-full"></span>
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
@@ -64,14 +64,14 @@ const Navbar = () => {
           <ul className="flex flex-col justify-center text-amber-50 gap-4">
             {navLinks.map((item) => (
               <li key={item.name} className="">
-                <Link
+                <a
                   href={`${item.href}`}
                   className="block w-full py-2 hover:text-amber-40"
                   onClick={() => setIsOpen(false)}
                   target={item.isExternal ? "_blank" : "_self"}
                 >
                   {item.name}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>

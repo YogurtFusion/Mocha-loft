@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative h-[600px] flex items-center justify-center overflow-hidden mb-12 ">
+    <section id="hero" className="relative h-[600px] flex items-center justify-center overflow-hidden mb-12 ">
       {/* hero image */}
       <img
         src="./hero-image.png"
@@ -30,7 +30,7 @@ const Hero = () => {
 
         {/* text */}
         <div className=" text-center flex flex-col gap-4 ">
-          <h1 className="font-playfair font-semibold text-primary text-4xl">
+          <h1 className="font-playfair font-semibold text-primary text-4xl md:text-5xl">
             Comfort Food
           </h1>
           <p className="text-secondary max-w-xs leading-relaxed tracking-wider ">
@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
 
         {/* button */}
-        <div className=" flex flex-col gap-4 mt-4">
+      <div className=" flex flex-col gap-4 mt-4">
           <HeroBtn
             text={`Explore Our Menu`}
             svg={
@@ -58,7 +58,7 @@ const Hero = () => {
               </svg>
             }
             padding={`px-6 py-2`}
-          link={"/"}
+          link={"#menu"}
           />
           <HeroBtn
             text={"Order From Whatsapp"}
@@ -80,7 +80,10 @@ const Hero = () => {
                 />
               </svg>
             }
-            link={"/"}
+
+            target={"_blank"}
+
+            link={"https://wa.me/919471090662?text=👋%20Hi!"}
           />
         </div>
       </div>
