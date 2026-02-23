@@ -1,10 +1,28 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import MenuLinks from "./UI/MenuLinks";
 import MenuCard from "./UI/MenuCard";
 import BestSellers from "./Bestsellers";
 import Pasta from "./Pasta";
+import Pizza from "./Pizza";
 import Burger from "./Burger";
+import  Biryani from "./Biryani";
 const Menu = () => {
+  const [activeTab, SetActiveTab] = useState("Best Sellers");
+  const renderCategory = () => {
+    switch (activeTab) {
+      case "Pizza":
+        return <Pizza />;
+      case "Pasta":
+        return <Pasta />;
+      case "Burger":
+        return <Burger />;
+      case "Biryani":
+        return <Biryani />;
+      default:
+        return <BestSellers />;
+    }
+  };
   return (
     <section id="menu" className="mb-12">
       {/* wrap */}
@@ -12,13 +30,13 @@ const Menu = () => {
         <h2 className="text-primary text-3xl  tracking-tight font-semibold font-playfair text-center border-b border-primary mx-auto w-fit mb-3 ">
           The Menu
         </h2>
-        <MenuLinks />
+        <MenuLinks activeTab={activeTab} SetActiveTab={SetActiveTab} />
         {/* <MenuCard /> */}
-        <BestSellers/>
-        <Pizza/>
-        <Pasta/>
-        <Burger/>
-        <Biryani/>
+       {renderCategory()}
+        {/* <Pizza />
+        <Pasta />
+        <Burger />
+        <Biryani /> */}
       </div>
     </section>
   );
