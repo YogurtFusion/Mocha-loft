@@ -1,5 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# 🍔 Mocha Loft — Restaurant Ordering Website
+
+A modern, dark-themed restaurant website for **Mocha Loft**, a multi-cuisine cloud kitchen. Customers can browse the menu and place orders directly via WhatsApp.
+
+![Mocha Loft Preview](./screenshot.png)
+
+---
+
+## ✨ Features
+
+- **Hero Section** — Full-screen banner with "Comfort Food" headline, delivery & dine-in availability badge, and CTA buttons
+- **How It Works** — 3-step order flow: Browse Menu → Click Order → Confirm on WhatsApp
+- **Menu Section** — Category filter tabs (Best Sellers, Pizza, Burger, Biryani, Pasta) with food cards showing image, name, price, and an Order via WhatsApp button
+- **Why Choose Us** — Highlights Fresh Ingredients, Hygiene First, and Quality Packaging
+- **Footer** — Operating hours, delivery area info, WhatsApp contact CTA, and a pro tip to save the number for exclusive offers
+- **Sticky Navbar** — Logo, Home, Menu, and Contact links
+
+---
+
+## 🛒 Ordering Flow
+
+Orders are handled entirely through WhatsApp — no backend or payment gateway required.
+
+```
+Browse Menu → Add to Order → Click "Order" → Confirm via WhatsApp Chat
+```
+
+---
+
+## 🗂️ Project Structure
+
+```
+├── index.html
+├── styles/
+│   └── main.css
+├── scripts/
+│   └── main.js
+├── assets/
+│   └── images/
+└── README.md
+```
+
+> ⚠️ Update this structure to match your actual project layout.
+
+---
 ## Getting Started
 
 First, run the development server:
@@ -29,8 +73,54 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsive Design
+
+The site is fully responsive and optimized for:
+
+- 📱 Mobile (iPhone 14 Pro Max tested)
+- 💻 Desktop
+
+---
+
+## 🎨 Design
+
+| Property | Value |
+|---|---|
+| Primary Color | `#C9A84C` (Gold/Mocha) |
+| Background | `#0D0D0D` (Near Black) |
+| Font Style | Serif headings, clean body text |
+| Theme | Dark, warm, luxe food aesthetic |
+
+---
+
+## 📍 Business Info
+
+| Detail | Info |
+|---|---|
+| Type | Multi-cuisine Cloud Kitchen |
+| Hours | 11 AM – 11 PM (All days) |
+| Delivery Radius | Within 5 km |
+| Free Delivery | Orders above ₹299 |
+| Order Channel | WhatsApp |
+
+---
+
+## 🛠️ Built With
+
+> Update this section based on your actual tech stack.
+
+- HTML / CSS / JavaScript
+- (Add any frameworks, e.g. React, Tailwind, Next.js)
+
+---
+
+## 📄 License
+
+This project is for **Mocha Loft** internal use. All rights reserved © 2026 Mocha Loft.
+
+---
+
+*Crafted with ❤️ for food lovers*
