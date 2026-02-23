@@ -22,18 +22,18 @@ const Hero = () => {
       <div className=" relative z-10  p-7 flex flex-col justify-center items-center gap-2 ">
         {/* Delivery & Dine-in Available */}
         <div className=" bg-[#F5DEB280]/50 flex justify-center items-center gap-2.5 w-fit mx-auto py-1 px-4 rounded-full  ">
-          <span className="w-[6px] h-[6px] aspect-square rounded-full bg-gold "></span>
+          <span className="size-1.5 aspect-square rounded-full bg-gold "></span>
           <span className="font-poppins text-sm text-amber-50">
             Delivery & Dine-in Available
           </span>
         </div>
 
         {/* text */}
-        <div className=" text-center flex flex-col gap-4 ">
-          <h1 className="font-playfair font-semibold text-primary text-4xl md:text-5xl">
+        <div className=" text-center flex flex-col gap-4  justify-center items-center ">
+          <h1 className="font-playfair font-semibold tracking-[-0.02em] text-primary text-4xl md:text-5xl lg:text-7xl">
             Comfort Food
           </h1>
-          <p className="text-secondary max-w-xs leading-relaxed tracking-wider ">
+          <p className="text-secondary font-semibold max-w-xs leading-relaxed tracking-normal text-sm md:max-w-sm lg:max-w-xl lg:text-lg ">
             From crispy burgers to aromatic biryani, experience multi-cuisine
             favorites crafted with love at Mocha Loft.
           </p>
