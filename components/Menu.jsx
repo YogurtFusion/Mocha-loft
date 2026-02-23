@@ -2,7 +2,8 @@ import React from "react";
 import MenuLinks from "./UI/MenuLinks";
 import MenuCard from "./UI/MenuCard";
 import BestSellers from "./Bestsellers";
-
+import Pasta from "./Pasta";
+import Burger from "./Burger";
 const Menu = () => {
   return (
     <section id="menu" className="mb-12">
@@ -14,6 +15,10 @@ const Menu = () => {
         <MenuLinks />
         {/* <MenuCard /> */}
         <BestSellers/>
+        <Pizza/>
+        <Pasta/>
+        <Burger/>
+        <Biryani/>
       </div>
     </section>
   );
