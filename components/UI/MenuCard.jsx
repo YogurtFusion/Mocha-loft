@@ -34,10 +34,12 @@ const cardValue = [
   },
  
 ]
-const MenuCard = () => {
+const MenuCard = ({cardData}) => {
   return (
-    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto gap-8 mt-12">
-      {cardValue.map((item) =>(
+     <div className=" flex flex-wrap flex-col md:flex-row justify-center  max-w-7xl mx-auto gap-8 mt-12">
+    
+     {/* </div><div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto gap-8 mt-12">  */}
+      {cardData.map((item) =>(
         <div className="group bg-card h-fit border border-primary/20 rounded-[2rem] overflow-hidden  font-poppins transition-all hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(234,179,8,0.15)] " key={item.id}>
 
                 {/* Img wrapper */}
@@ -54,7 +56,7 @@ const MenuCard = () => {
         <h2 className="text-primary text-2xl font-serif font-medium tracking-wide text-center">
          {item.title}
         </h2>
-        <p className="text-secondary/80 text-sm  text-center leading-relaxed mb-6 max-w-[80%] mx-auto ">
+        <p className="text-secondary/80 text-sm  text-center leading-relaxed mb-6 max-w-sm mx-auto ">
         {item.desc}
             </p>
         <div className=" flex justify-between items-center w-full px-2">

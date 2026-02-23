@@ -1,6 +1,7 @@
 import React from "react";
 import MenuLinks from "./UI/MenuLinks";
 import MenuCard from "./UI/MenuCard";
+import BestSellers from "./UI/Bestsellers";
 
 const Menu = () => {
   return (
@@ -11,7 +12,8 @@ const Menu = () => {
           The Menu
         </h2>
         <MenuLinks />
-        <MenuCard />
+        {/* <MenuCard /> */}
+        <BestSellers/>
       </div>
     </section>
   );
