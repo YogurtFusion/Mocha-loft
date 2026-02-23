@@ -1,7 +1,7 @@
 import React from "react";
 import MenuLinks from "./UI/MenuLinks";
 import MenuCard from "./UI/MenuCard";
-import BestSellers from "./UI/Bestsellers";
+import BestSellers from "./Bestsellers";
 
 const Menu = () => {
   return (
