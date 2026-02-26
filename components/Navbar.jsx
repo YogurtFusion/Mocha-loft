@@ -27,7 +27,7 @@ const Navbar = () => {
               priority
             />
           </div>
-          <span className=" hidden sm:block font-playfair text-white ">
+          <span className=" hidden sm:block text-sm md:text-xl font-semibold font-playfair text-white ">
             Mocha Loft
           </span>
         </Link>
