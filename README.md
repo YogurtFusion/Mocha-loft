@@ -1,15 +1,15 @@
 
-# 🍔 Mocha Loft — Restaurant Ordering Website
+#  Mocha Loft — Restaurant Ordering Website
 
 A modern, dark-themed restaurant website for **Mocha Loft**, a multi-cuisine cloud kitchen. Customers can browse the menu and place orders directly via WhatsApp.
 
-#Mocha Loft Preview
+## Mocha Loft Preview
 <img width="1920" height="1440" alt="211shots_so" src="https://github.com/user-attachments/assets/55435b04-0611-44d5-bbb8-8b4451f7cd02" />
 <img width="1920" height="1440" alt="660shots_so" src="https://github.com/user-attachments/assets/26b6240e-461a-4d16-a557-79f5ed8dd1df" />
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Hero Section** — Full-screen banner with "Comfort Food" headline, delivery & dine-in availability badge, and CTA buttons
 - **How It Works** — 3-step order flow: Browse Menu → Click Order → Confirm on WhatsApp
@@ -29,16 +29,16 @@ Browse Menu → Add to Order → Click "Order" → Confirm via WhatsApp Chat
 ```
 
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The site is fully responsive and optimized for:
 
-- 📱 Mobile (iPhone 14 Pro Max tested)
-- 💻 Desktop
+-  Mobile (iPhone 14 Pro Max tested)
+-  Desktop
 
 ---
 
-## 🎨 Design
+##  Design
 
 | Property | Value |
 |---|---|
@@ -49,7 +49,7 @@ The site is fully responsive and optimized for:
 
 ---
 
-## 📍 Business Info
+##  Business Info
 
 | Detail | Info |
 |---|---|
@@ -61,7 +61,7 @@ The site is fully responsive and optimized for:
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 > Update this section based on your actual tech stack.
 
@@ -71,7 +71,7 @@ The site is fully responsive and optimized for:
 ---
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ├── index.html
@@ -110,7 +110,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 ---
 
 
-## 📄 License
+##  License
 
 This project is for **Mocha Loft** internal use. All rights reserved © 2026 Mocha Loft.
 
