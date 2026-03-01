@@ -3,8 +3,9 @@
 
 A modern, dark-themed restaurant website for **Mocha Loft**, a multi-cuisine cloud kitchen. Customers can browse the menu and place orders directly via WhatsApp.
 
-![Mocha Loft Preview](<img width="1920" height="1440" alt="211shots_so" src="https://github.com/user-attachments/assets/55435b04-0611-44d5-bbb8-8b4451f7cd02" />)
-(<img width="1920" height="1440" alt="660shots_so" src="https://github.com/user-attachments/assets/26b6240e-461a-4d16-a557-79f5ed8dd1df" />)
+#Mocha Loft Preview
+<img width="1920" height="1440" alt="211shots_so" src="https://github.com/user-attachments/assets/55435b04-0611-44d5-bbb8-8b4451f7cd02" />
+<img width="1920" height="1440" alt="660shots_so" src="https://github.com/user-attachments/assets/26b6240e-461a-4d16-a557-79f5ed8dd1df" />
 
 ---
 
